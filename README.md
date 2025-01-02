@@ -1,4 +1,8 @@
+
 # This is WIP
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60e45e14-9891-4af6-9fe8-3d53e279c434/deploy-status)](https://app.netlify.com/sites/vue-nes-css/deploys)
+
 # vue-nes-css
 
 A Vue 3 component library built on top of the NES.css framework.
@@ -124,6 +128,10 @@ Why use vue-nes-css?
 ## Contributing
 
 We welcome contributions! Feel free to submit issues, feature requests, or pull requests to improve this library.
+
+## Credits
+
+All credits go to the [creators and contributors of NES.css](https://nostalgic-css.github.io/NES.css).
 
 ## License
 

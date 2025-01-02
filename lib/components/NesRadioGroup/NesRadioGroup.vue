@@ -18,7 +18,7 @@ import { NesRadioGroupOption } from "./types";
 
 const modelValue = defineModel<string>({ required: true });
 
-const props = withDefaults(
+withDefaults(
   defineProps<{
     options: NesRadioGroupOption[];
     groupName?: string;
