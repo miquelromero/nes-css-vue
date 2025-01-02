@@ -16,6 +16,7 @@ A Vue 3 component library built on top of the NES.css framework.
 
 ### Completed
 - Container
+- Icon
 
 ### Functional
 - Button
@@ -36,7 +37,6 @@ A Vue 3 component library built on top of the NES.css framework.
 - Avatar
 - Balloon
 - Badge
-- Icon
 - Pixel-arts
 - Nintendo-characters
 

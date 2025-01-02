@@ -1,0 +1,30 @@
+export type NesIconSize = 'small' | 'default' | 'medium' | 'large';
+export type NesIconName =
+  // Reaction
+  | 'heart'
+  | 'heart-half'
+  | 'heart-transparent'
+  | 'heart-empty'
+  | 'star'
+  | 'star-half'
+  | 'star-transparent'
+  | 'star-empty'
+  | 'like'
+  | 'like-empty'
+  // Sns
+  | 'twitter'
+  | 'facebook'
+  | 'instagram'
+  | 'github'
+  | 'google'
+  | 'gmail'
+  | 'medium'
+  | 'linkedin'
+  | 'twitch'
+  | 'youtube'
+  | 'reddit'
+  | 'whatsapp'
+  // Other
+  | 'close'
+  | 'trophy'
+  | 'coin';
