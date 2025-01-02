@@ -88,7 +88,7 @@ Below is an example of how to use a vue-nes-css component alongside nes.css util
 
 ```vue
 <script setup>
-// Import is only needed if you ar
+// Not needed if you have installed the components globally
 import { NesButton } 'vue-nes-css';
 </script>
 
@@ -97,7 +97,7 @@ import { NesButton } 'vue-nes-css';
     <p class="title">NES.css + Vue Example</p>
 
     <!-- Using vue-nes-css component -->
-    <nes-button label="Click Me!" variant="primary" />
+    <NesButton label="Click Me!" variant="primary" />
 
     <!-- Using NES.css utility class -->
     <p class="nes-text is-primary">This text is styled using NES.css utilities</p>
