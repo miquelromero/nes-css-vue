@@ -1,0 +1,134 @@
+# This is WIP
+# vue-nes-css
+
+A Vue 3 component library built on top of the NES.css framework.
+
+
+## What is vue-nes-css?
+
+`vue-nes-css` is a set of Vue 3 components that leverage the NES.css framework to create a retro, NES-inspired UI with ease. It is designed to work alongside NES.css, complementing its utility and styling classes with reusable Vue components.
+
+## Components
+
+- [x] Button
+- [ ] Radio Group
+- [x] Checkbox
+- [ ] Input
+- [ ] Textarea
+- [ ] Select
+- [x] Container
+- [ ] Dialog
+- [ ] List
+- [ ] Table
+- [ ] Progress
+- [ ] Avatar
+- [ ] Balloon
+- [ ] Badge
+- [ ] Icon
+- [ ] Pixel-arts
+- [ ] Nintendo-characters
+
+## Installation
+
+To use this library, you need to install both `vue-nes-css` and `nes.css`:
+
+```bash
+pnpm add vue-nes-css nes.css
+```
+```bash
+npm install vue-nes-css nes.css
+```
+```bash
+yarn install vue-nes-css nes.css
+```
+
+## Getting Started
+
+### Import the CSS
+
+Make sure to import the NES.css framework in your main entry file, typically main.js or main.ts:
+
+```
+// main.js
+import 'nes.css/css/nes.min.css';
+```
+
+You can also import the `scss` version of it so you can customize the theme by overriding its environment variables, or via CDN.
+
+Please read [NES.css readme](https://github.com/nostalgic-css/NES.css?tab=readme-ov-file#styles) for further details.
+
+
+
+### Register components globally (optional)
+
+Make sure to import the NES.css framework in your main entry file, typically main.js or main.ts:
+
+```
+// main.js
+import { createApp } from 'vue';
+import App from './App.vue';
+import VueNesCss from 'vue-nes-css';
+
+const app = createApp(App);
+
+// Optionally register all components globally
+app.use(VueNesCss);
+
+app.mount('#app');
+```
+
+You can also import the `scss` version of it so you can customize the theme by overriding its environment variables.
+
+### Usage
+
+Below is an example of how to use a vue-nes-css component alongside nes.css utility classes:
+
+```vue
+<script setup>
+// Import is only needed if you ar
+import { NesButton } 'vue-nes-css';
+</script>
+
+<template>
+  <div class="nes-container with-title">
+    <p class="title">NES.css + Vue Example</p>
+
+    <!-- Using vue-nes-css component -->
+    <nes-button label="Click Me!" variant="primary" />
+
+    <!-- Using NES.css utility class -->
+    <p class="nes-text is-primary">This text is styled using NES.css utilities</p>
+  </div>
+</template>
+```
+
+## What is NES.css?
+
+NES.css is a CSS framework for creating retro, NES-style user interfaces. It provides:
+	•	Utility classes: For text styles, colors, buttons, etc. (e.g., is-primary, is-warning)
+	•	Containers: For creating card-like structures (e.g., nes-container)
+	•	Typography styles: For headers, body text, and more.
+
+Features of vue-nes-css
+	•	Prebuilt Vue components, such as <nes-button> and more.
+	•	Designed to work seamlessly with NES.css.
+	•	Lightweight and easy to integrate.
+
+## Documentation
+
+The full list of components and their props is available in the vue-nes-css documentation.
+
+For information on utility classes and other features of NES.css, refer to the official NES.css documentation.
+
+Why use vue-nes-css?
+	•	Simplifies the usage of NES.css by wrapping its styles into Vue components.
+	•	Enhances productivity for Vue developers.
+	•	Allows you to mix NES.css utility classes with reusable Vue components.
+
+## Contributing
+
+We welcome contributions! Feel free to submit issues, feature requests, or pull requests to improve this library.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
