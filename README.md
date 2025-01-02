@@ -106,6 +106,10 @@ import { NesButton } 'vue-nes-css';
 </template>
 ```
 
+## Future plans
+
+If this works well but the limitations due to the original css code become more annoying, I will consider making this a standalone library that fixes and extends the original features of NES.css.
+
 ## Documentation
 
 The full list of components and their props is available in the vue-nes-css [storybook](https://github.com/miquelromero/vue-nes-css).
