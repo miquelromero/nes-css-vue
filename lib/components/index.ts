@@ -4,3 +4,6 @@ export * from './NesRadioGroup';
 export * from './NesCheckbox';
 export * from './NesIcon';
 export * from './NesProgress';
+export * from './NesInput';
+export * from './NesTextarea';
+export * from './NesSelect';

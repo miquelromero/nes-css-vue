@@ -20,6 +20,9 @@ All components are documented in [storybook](https://vue-nes-css-storybook.netli
 - Container
 - Icon
 - Progress
+- Input
+- Textarea
+- Select
 
 ### Functional
 - Button
@@ -30,9 +33,7 @@ All components are documented in [storybook](https://vue-nes-css-storybook.netli
 - Radio Group
 
 ### Pending
-- Input
-- Textarea
-- Select
+- Field
 - Dialog
 - List
 - Table
