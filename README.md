@@ -5,16 +5,16 @@
 
 # vue-nes-css
 
-A Vue 3 component library built on top of the NES.css framework.
+A Vue 3 component library built on top of the [NES.css](https://nostalgic-css.github.io/NES.css) framework.
 
 
 ## What is vue-nes-css?
 
-`vue-nes-css` is a set of Vue 3 components that leverage the NES.css framework to create a retro, NES-inspired UI with ease. It is designed to work alongside NES.css, complementing its utility and styling classes with reusable Vue components.
+`vue-nes-css` is a set of Vue 3 components that leverage the NES.css framework. It is designed to work alongside NES.css, complementing its utility and styling classes with reusable Vue components.
 
 ## Components
 
-All documents are documented in [storybook](https://vue-nes-css-storybook.netlify.app).
+All components are documented in [storybook](https://vue-nes-css-storybook.netlify.app).
 
 ### Completed
 - Container
@@ -53,17 +53,16 @@ pnpm add vue-nes-css nes.css
 npm install vue-nes-css nes.css
 ```
 ```bash
-yarn install vue-nes-css nes.css
+yarn add vue-nes-css nes.css
 ```
 
 ## Getting Started
 
 ### Import the CSS
 
-Make sure to import the NES.css framework in your main entry file, typically main.js or main.ts:
+Make sure to import the NES.css framework in your main entry file, typically `main.js` or `main.ts`:
 
-```
-// main.js
+```ts
 import 'nes.css/css/nes.min.css';
 ```
 
@@ -75,20 +74,10 @@ Please read [NES.css readme](https://github.com/nostalgic-css/NES.css?tab=readme
 
 ### Register components globally (optional)
 
-Make sure to import the NES.css framework in your main entry file, typically main.js or main.ts:
+Make sure to import the NES.css framework in your main entry file, typically `main.js` or `main.ts`:
 
-```
-// main.js
-import { createApp } from 'vue';
-import App from './App.vue';
-import VueNesCss from 'vue-nes-css';
-
-const app = createApp(App);
-
-// Optionally register all components globally
+```ts
 app.use(VueNesCss);
-
-app.mount('#app');
 ```
 
 You can also import the `scss` version of it so you can customize the theme by overriding its environment variables.
@@ -133,7 +122,7 @@ We welcome contributions! Feel free to submit issues, feature requests, or pull 
 
 ## Credits
 
-All credits go to the [creators and contributors of NES.css](https://nostalgic-css.github.io/NES.css).
+All credits go to the creators and contributors of [NES.css](https://nostalgic-css.github.io/NES.css).
 
 ## License
 
