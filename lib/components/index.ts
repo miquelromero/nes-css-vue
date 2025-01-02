@@ -7,3 +7,4 @@ export * from './NesProgress';
 export * from './NesInput';
 export * from './NesTextarea';
 export * from './NesSelect';
+export * from './NesField';

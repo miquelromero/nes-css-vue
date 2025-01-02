@@ -23,17 +23,19 @@ All components are documented in [storybook](https://vue-nes-css-storybook.netli
 - Input
 - Textarea
 - Select
+- Checkbox
 
 ### Functional
 - Button
   - Not ready for `a` tags nor router links
+- Radio Group
+  - Spacing issues 
+- Field
+  - Label not pointing to input
 
 ### Ongoing
-- Checkbox
-- Radio Group
 
 ### Pending
-- Field
 - Dialog
 - List
 - Table

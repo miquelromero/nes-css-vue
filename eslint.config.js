@@ -13,7 +13,7 @@ export default [
       '**/dist/**',
       '**/dist-ssr/**',
       '**/coverage/**',
-      'storybook-static',
+      'storybook-static/**',
     ],
   },
   ...pluginVue.configs['flat/essential'],
