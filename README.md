@@ -10,23 +10,31 @@ A Vue 3 component library built on top of the NES.css framework.
 
 ## Components
 
-- [x] Button
-- [ ] Radio Group
-- [x] Checkbox
-- [ ] Input
-- [ ] Textarea
-- [ ] Select
-- [x] Container
-- [ ] Dialog
-- [ ] List
-- [ ] Table
-- [ ] Progress
-- [ ] Avatar
-- [ ] Balloon
-- [ ] Badge
-- [ ] Icon
-- [ ] Pixel-arts
-- [ ] Nintendo-characters
+### Completed
+- Container
+
+### Functional
+- Button
+  - Not ready for `a` tags nor router links
+
+### Ongoing
+- Checkbox
+- Radio Group
+
+### Pending
+- Input
+- Textarea
+- Select
+- Dialog
+- List
+- Table
+- Progress
+- Avatar
+- Balloon
+- Badge
+- Icon
+- Pixel-arts
+- Nintendo-characters
 
 ## Installation
 
@@ -102,21 +110,9 @@ import { NesButton } 'vue-nes-css';
 </template>
 ```
 
-## What is NES.css?
-
-NES.css is a CSS framework for creating retro, NES-style user interfaces. It provides:
-	•	Utility classes: For text styles, colors, buttons, etc. (e.g., is-primary, is-warning)
-	•	Containers: For creating card-like structures (e.g., nes-container)
-	•	Typography styles: For headers, body text, and more.
-
-Features of vue-nes-css
-	•	Prebuilt Vue components, such as <nes-button> and more.
-	•	Designed to work seamlessly with NES.css.
-	•	Lightweight and easy to integrate.
-
 ## Documentation
 
-The full list of components and their props is available in the vue-nes-css documentation.
+The full list of components and their props is available in the vue-nes-css [storybook](https://github.com/miquelromero/vue-nes-css).
 
 For information on utility classes and other features of NES.css, refer to the official NES.css documentation.
 
