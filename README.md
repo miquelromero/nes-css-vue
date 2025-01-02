@@ -119,7 +119,3 @@ We welcome contributions! Feel free to submit issues, feature requests, or pull 
 ## Credits
 
 All credits go to the creators and contributors of [NES.css](https://nostalgic-css.github.io/NES.css).
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
