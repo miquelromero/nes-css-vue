@@ -1,8 +1,3 @@
-
-# This is WIP
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/60e45e14-9891-4af6-9fe8-3d53e279c434/deploy-status)](https://app.netlify.com/sites/vue-nes-css/deploys)
-
 # vue-nes-css
 
 A Vue 3 component library built on top of the [NES.css](https://nostalgic-css.github.io/NES.css) framework.
@@ -14,7 +9,7 @@ A Vue 3 component library built on top of the [NES.css](https://nostalgic-css.gi
 
 ## Components
 
-All components are documented in [storybook](https://vue-nes-css-storybook.netlify.app).
+All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xtnljuvvgs.chromatic.com/).
 
 ### Completed
 - Container
@@ -114,7 +109,7 @@ If this works well but the limitations due to the original css code become more 
 
 ## Documentation
 
-The full list of components and their props is available in the vue-nes-css [storybook](https://github.com/miquelromero/vue-nes-css).
+The full list of components and their props is available in the vue-nes-css [storybook](https://6776ff893997214c9ddaa7fc-xtnljuvvgs.chromatic.com/).
 
 For information on utility classes and other features of NES.css, refer to the official NES.css documentation.
 
