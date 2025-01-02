@@ -1,4 +1,4 @@
-import type { Preview } from "@storybook/vue3";
+import type { Preview } from '@storybook/vue3';
 import 'nes.css/css/nes.min.css';
 
 const preview: Preview = {

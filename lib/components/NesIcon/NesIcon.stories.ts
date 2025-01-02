@@ -12,7 +12,7 @@ type Story = StoryObj<typeof NesIcon>;
 
 export const Docs: Story = {
   args: {
-    icon: 'heart'
+    icon: 'heart',
   },
   tags: ['!autodocs', '!dev'],
 };
@@ -78,7 +78,7 @@ export const All: Story = {
             'close',
             'trophy',
             'coin',
-          ] as NesIconName[]
+          ] as NesIconName[],
         };
       },
       template: `
@@ -87,7 +87,5 @@ export const All: Story = {
         </div>
       `,
     };
-  }
-}
-
-
+  },
+};

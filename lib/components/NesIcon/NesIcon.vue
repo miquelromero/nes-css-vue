@@ -5,15 +5,18 @@
 import { computed } from 'vue';
 import { NesIconName, NesIconSize } from './types';
 
-const props = withDefaults(defineProps<{
-  icon: NesIconName;
-  size?: NesIconSize;
-}>(), {
-  size: 'default',
-});
+const props = withDefaults(
+  defineProps<{
+    icon: NesIconName;
+    size?: NesIconSize;
+  }>(),
+  {
+    size: 'default',
+  },
+);
 
 const sizeClass = computed(() => {
-  switch(props.size) {
+  switch (props.size) {
     case 'small':
       return 'is-small';
     case 'medium':
@@ -21,6 +24,7 @@ const sizeClass = computed(() => {
     case 'large':
       return 'is-large';
     case 'default':
+    default:
       return '';
   }
 });
@@ -42,8 +46,7 @@ const iconClass = computed(() => {
     case 'like-empty':
       return 'like is-empty';
     default:
-      return props.icon
+      return props.icon;
   }
-
 });
 </script>

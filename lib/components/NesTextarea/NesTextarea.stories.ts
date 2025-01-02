@@ -11,7 +11,7 @@ type Story = StoryObj<typeof NesTextarea>;
 
 export const Docs: Story = {
   args: {
-    placeholder: 'Tell us something about you...'
+    placeholder: 'Tell us something about you...',
   },
   tags: ['!autodocs', '!dev'],
 };
@@ -55,4 +55,3 @@ export const Dark: Story = {
     },
   },
 };
-

@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { NesRadioGroupOption } from "./types";
+import { NesRadioGroupOption } from './types';
 
 const modelValue = defineModel<string>({ required: true });
 
@@ -25,8 +25,8 @@ withDefaults(
     label?: string;
   }>(),
   {
-    groupName: "my-radio", // TODO
+    groupName: 'my-radio', // TODO
     disabled: false,
-  }
+  },
 );
 </script>

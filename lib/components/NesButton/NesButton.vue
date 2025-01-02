@@ -1,5 +1,9 @@
 <template>
-  <button class="nes-btn" :disabled="disabled || undefined" :class="modifierClass">
+  <button
+    class="nes-btn"
+    :disabled="disabled || undefined"
+    :class="modifierClass"
+  >
     <slot>{{ label }}</slot>
   </button>
 </template>
@@ -8,20 +12,23 @@
 import { computed } from 'vue';
 import { NesButtonVariant } from './types';
 
-const props = withDefaults(defineProps<{
-  variant?: NesButtonVariant;
-  disabled?: boolean;
-  label?: string;
-}>(), {
-  variant: 'normal',
-  disabled: false,
-});
+const props = withDefaults(
+  defineProps<{
+    variant?: NesButtonVariant;
+    disabled?: boolean;
+    label?: string;
+  }>(),
+  {
+    variant: 'normal',
+    disabled: false,
+  },
+);
 
 const modifierClass = computed(() => {
   if (props.disabled) {
     return 'is-disabled';
   }
-  switch(props.variant) {
+  switch (props.variant) {
     case 'primary':
       return 'is-primary';
     case 'success':
@@ -31,7 +38,8 @@ const modifierClass = computed(() => {
     case 'error':
       return 'is-error';
     case 'normal':
+    default:
       return '';
   }
-})
+});
 </script>

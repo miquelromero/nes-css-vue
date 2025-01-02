@@ -1,4 +1,4 @@
 import NesProgress from './NesProgress.vue';
-import  type { NesProgressVariant } from './types';
+import type { NesProgressVariant } from './types';
 
-export { NesProgress, NesProgressVariant}
+export { NesProgress, NesProgressVariant };

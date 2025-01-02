@@ -5,17 +5,19 @@ const meta: Meta<typeof NesSelect> = {
   component: NesSelect,
   title: 'Components/Select',
   args: {
-    options: [{ label: 'Yes', value: 'yes' }, { label: 'No', value: 'no' }],
-    placeholder: 'Select...'
-  }
+    options: [
+      { label: 'Yes', value: 'yes' },
+      { label: 'No', value: 'no' },
+    ],
+    placeholder: 'Select...',
+  },
 };
 export default meta;
 
 type Story = StoryObj<typeof NesSelect>;
 
 export const Docs: Story = {
-  args: {
-  },
+  args: {},
   tags: ['!autodocs', '!dev'],
 };
 
@@ -53,4 +55,3 @@ export const Dark: Story = {
     },
   },
 };
-

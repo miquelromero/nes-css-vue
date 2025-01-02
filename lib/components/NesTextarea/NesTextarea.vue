@@ -1,5 +1,10 @@
 <template>
-  <textarea :placeholder="placeholder" v-model="modelValue" class="nes-textarea" :class="[isDarkClass, modifierClass]" />
+  <textarea
+    :placeholder="placeholder"
+    v-model="modelValue"
+    class="nes-textarea"
+    :class="[isDarkClass, modifierClass]"
+  />
 </template>
 
 <script setup lang="ts">
@@ -8,18 +13,21 @@ import { NesTextareaStatus } from './types';
 
 const modelValue = defineModel<string>({ required: true });
 
-const props = withDefaults(defineProps<{
-  dark?: boolean;
-  placeholder?: string;
-  status?: NesTextareaStatus
-}>(), {
-  dark: false,
-  status: 'default'
-});
+const props = withDefaults(
+  defineProps<{
+    dark?: boolean;
+    placeholder?: string;
+    status?: NesTextareaStatus;
+  }>(),
+  {
+    dark: false,
+    status: 'default',
+  },
+);
 
-const isDarkClass = computed(() => props.dark ? 'is-dark' : '');
+const isDarkClass = computed(() => (props.dark ? 'is-dark' : ''));
 const modifierClass = computed(() => {
-  switch(props.status) {
+  switch (props.status) {
     case 'success':
       return 'is-success';
     case 'warning':
@@ -27,6 +35,7 @@ const modifierClass = computed(() => {
     case 'error':
       return 'is-error';
     case 'default':
+    default:
       return '';
   }
 });

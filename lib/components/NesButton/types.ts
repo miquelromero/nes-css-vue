@@ -1,1 +1,6 @@
-export type NesButtonVariant = 'normal' | 'primary' | 'success' | 'warning' | 'error';
+export type NesButtonVariant =
+  | 'normal'
+  | 'primary'
+  | 'success'
+  | 'warning'
+  | 'error';

@@ -11,7 +11,7 @@ type Story = StoryObj<typeof NesInput>;
 
 export const Docs: Story = {
   args: {
-    placeholder: 'John Doe'
+    placeholder: 'John Doe',
   },
   tags: ['!autodocs', '!dev'],
 };
@@ -55,4 +55,3 @@ export const Dark: Story = {
     },
   },
 };
-

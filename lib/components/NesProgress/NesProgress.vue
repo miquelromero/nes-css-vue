@@ -1,20 +1,28 @@
 <template>
-  <progress class="nes-progress" :class="modifierClass" :value="value" :max="max"></progress>
+  <progress
+    class="nes-progress"
+    :class="modifierClass"
+    :value="value"
+    :max="max"
+  ></progress>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue';
 import { NesProgressVariant } from './types';
-const props = withDefaults(defineProps<{
-  variant?: NesProgressVariant;
-  value?: number;
-  max?: number;
-}>(), {
-  variant: 'default'
-});
+const props = withDefaults(
+  defineProps<{
+    variant?: NesProgressVariant;
+    value?: number;
+    max?: number;
+  }>(),
+  {
+    variant: 'default',
+  },
+);
 
 const modifierClass = computed(() => {
-  switch(props.variant) {
+  switch (props.variant) {
     case 'primary':
       return 'is-primary';
     case 'success':
@@ -26,7 +34,8 @@ const modifierClass = computed(() => {
     case 'pattern':
       return 'is-pattern';
     case 'default':
+    default:
       return '';
   }
-})
+});
 </script>
