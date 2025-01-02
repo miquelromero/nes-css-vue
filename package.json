@@ -23,7 +23,7 @@
     "docs:dev": "storybook dev -p 6006",
     "docs:build": "storybook build",
     "docs:serve": "http-server storybook-static",
-    "storybook-build": "npm run docs:build"
+    "build-storybook": "npm run docs:build"
   },
   "peerDependencies": {
     "vue": "^3.5.13"
