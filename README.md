@@ -111,10 +111,6 @@ The full list of components and their props is available in the vue-nes-css [sto
 
 For information on utility classes and other features of NES.css, refer to the official NES.css documentation.
 
-Why use vue-nes-css?
-	•	Simplifies the usage of NES.css by wrapping its styles into Vue components.
-	•	Enhances productivity for Vue developers.
-	•	Allows you to mix NES.css utility classes with reusable Vue components.
 
 ## Contributing
 
