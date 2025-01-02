@@ -19,6 +19,7 @@ All documents are documented in [storybook](https://vue-nes-css-storybook.netlif
 ### Completed
 - Container
 - Icon
+- Progress
 
 ### Functional
 - Button
@@ -35,7 +36,6 @@ All documents are documented in [storybook](https://vue-nes-css-storybook.netlif
 - Dialog
 - List
 - Table
-- Progress
 - Avatar
 - Balloon
 - Badge
