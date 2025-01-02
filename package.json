@@ -23,7 +23,8 @@
     "docs:dev": "storybook dev -p 6006",
     "docs:build": "storybook build",
     "docs:serve": "http-server storybook-static",
-    "build-storybook": "npm run docs:build"
+    "build-storybook": "npm run docs:build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "peerDependencies": {
     "vue": "^3.5.13"
@@ -41,6 +42,7 @@
     "@vue/eslint-config-prettier": "^10.1.0",
     "@vue/eslint-config-typescript": "^14.2.0",
     "@vue/tsconfig": "^0.7.0",
+    "chromatic": "^11.20.2",
     "eslint": "^9.17.0",
     "eslint-plugin-vue": "^9.32.0",
     "http-server": "^14.1.1",
