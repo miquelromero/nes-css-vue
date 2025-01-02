@@ -6,7 +6,7 @@ const meta: Meta<typeof NesCheckbox> = {
   component: NesCheckbox,
   title: 'Components/Checkbox',
   args: {
-    label: 'Enable',
+    label: 'I am a robot',
   },
 };
 export default meta;
