@@ -19,4 +19,9 @@ export default [
   ...pluginVue.configs['flat/essential'],
   ...vueTsEslintConfig(),
   prettierConfig,
+  {
+    rules: {
+      'vue/multi-word-component-names': 'off',
+    },
+  },
 ];
