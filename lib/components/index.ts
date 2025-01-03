@@ -10,3 +10,4 @@ export * from './NesSelect';
 export * from './NesField';
 export * from './NesDialog';
 export * from './NesList';
+export * from './NesPixelArt';
