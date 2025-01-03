@@ -24,6 +24,7 @@ All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xt
 - List
 - Pixel-arts
 - Avatar
+- Balloon
 
 ### Functional
 - Button
@@ -37,7 +38,6 @@ All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xt
 
 ### Pending
 - Table
-- Balloon
 - Badge
 - Nintendo-characters
 
