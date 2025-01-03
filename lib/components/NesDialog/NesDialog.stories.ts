@@ -6,11 +6,6 @@ import NesButton from '../NesButton/NesButton.vue';
 const meta: Meta<typeof NesDialog> = {
   component: NesDialog,
   title: 'Components/Dialog',
-  decorators: [
-    () => ({
-      template: '<div style="height: 200px"><story/></div>',
-    }),
-  ],
   args: {
     modelValue: true,
   },
