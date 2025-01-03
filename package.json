@@ -1,19 +1,24 @@
 {
-  "name": "@miquelromero/vue-nes-css",
-  "private": true,
+  "name": "@miquelromero/nes-css-vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miquelromero/nes-css-vue.git"
+  },
+  "author": "Miquel Romero Sanfeliu <miquelromero@outlook.com>",
+  "license": "MIT",
   "version": "0.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-nes-css.umd.cjs",
-  "module": "./dist/vue-nes-css.js",
+  "main": "./dist/nes-css-vue.umd.cjs",
+  "module": "./dist/nes-css-vue.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "import": "./dist/vue-nes-css.js",
-      "require": "./dist/vue-nes-css.umd.cjs"
+      "import": "./dist/nes-css-vue.js",
+      "require": "./dist/nes-css-vue.umd.cjs"
     }
   },
   "scripts": {
