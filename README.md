@@ -1,12 +1,12 @@
-# vue-nes-css
+# nes-css-vue
 
 A Vue 3 component library built on top of the [NES.css](https://nostalgic-css.github.io/NES.css) framework.
 
 [![Storybook](https://raw.githubusercontent.com/storybookjs/brand/059f152ecfa4e9895380cb0e4a1f48cf80311a69/badge/badge-storybook.svg)](https://6776ff893997214c9ddaa7fc-xtnljuvvgs.chromatic.com/)
 
-## What is vue-nes-css?
+## What is nes-css-vue?
 
-`vue-nes-css` is a set of Vue 3 components that leverage the NES.css framework. It is designed to work alongside NES.css, complementing its utility and styling classes with reusable Vue components.
+`nes-css-vue` is a set of Vue 3 components that leverage the NES.css framework. It is designed to work alongside NES.css, complementing its utility and styling classes with reusable Vue components.
 
 ## Components
 
@@ -43,16 +43,16 @@ All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xt
 
 ## Installation
 
-To use this library, you need to install both `vue-nes-css` and `nes.css`:
+To use this library, you need to install both `nes-css-vue` and `nes.css`:
 
 ```bash
-pnpm add vue-nes-css nes.css
+pnpm add nes-css-vue nes.css
 ```
 ```bash
-npm install vue-nes-css nes.css
+npm install nes-css-vue nes.css
 ```
 ```bash
-yarn add vue-nes-css nes.css
+yarn add nes-css-vue nes.css
 ```
 
 ## Getting Started
@@ -83,19 +83,19 @@ You can also import the `scss` version of it so you can customize the theme by o
 
 ### Usage
 
-Below is an example of how to use a vue-nes-css component alongside nes.css utility classes:
+Below is an example of how to use a nes-css-vue component alongside nes.css utility classes:
 
 ```vue
 <script setup>
 // Not needed if you have installed the components globally
-import { NesButton } 'vue-nes-css';
+import { NesButton } 'nes-css-vue';
 </script>
 
 <template>
   <div class="nes-container with-title">
     <p class="title">NES.css + Vue Example</p>
 
-    <!-- Using vue-nes-css component -->
+    <!-- Using nes-css-vue component -->
     <NesButton label="Click Me!" variant="primary" />
 
     <!-- Using NES.css utility class -->
@@ -110,7 +110,7 @@ If this works well but the limitations due to the original css code become more 
 
 ## Documentation
 
-The full list of components and their props is available in the vue-nes-css [storybook](https://6776ff893997214c9ddaa7fc-xtnljuvvgs.chromatic.com/).
+The full list of components and their props is available in the nes-css-vue [storybook](https://6776ff893997214c9ddaa7fc-xtnljuvvgs.chromatic.com/).
 
 For information on utility classes and other features of NES.css, refer to the official NES.css documentation.
 

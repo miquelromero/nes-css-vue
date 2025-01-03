@@ -14,7 +14,7 @@ export default defineConfig({
     lib: {
       entry: 'lib/index.ts',
       name: 'VueNesCss',
-      fileName: 'vue-nes-css',
+      fileName: 'nes-css-vue',
     },
     rollupOptions: {
       external: ['vue'],
