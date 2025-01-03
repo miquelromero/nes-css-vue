@@ -9,14 +9,6 @@ export default meta;
 
 type Story = StoryObj<typeof NesProgress>;
 
-export const Docs: Story = {
-  args: {
-    max: 100,
-    value: 60,
-  },
-  tags: ['!autodocs', '!dev'],
-};
-
 export const Default: Story = {
   args: {
     max: 100,

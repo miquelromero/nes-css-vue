@@ -9,13 +9,6 @@ export default meta;
 
 type Story = StoryObj<typeof NesButton>;
 
-export const Docs: Story = {
-  args: {
-    label: 'Click me',
-  },
-  tags: ['!autodocs', '!dev'],
-};
-
 export const Normal: Story = {
   args: {
     label: 'Normal',

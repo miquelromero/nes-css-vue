@@ -10,13 +10,6 @@ export default meta;
 
 type Story = StoryObj<typeof NesIcon>;
 
-export const Docs: Story = {
-  args: {
-    icon: 'heart',
-  },
-  tags: ['!autodocs', '!dev'],
-};
-
 export const Small: Story = {
   args: {
     icon: 'heart',

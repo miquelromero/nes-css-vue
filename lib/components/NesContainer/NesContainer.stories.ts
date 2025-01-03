@@ -1,6 +1,5 @@
 // Replace your-renderer with the renderer you are using (e.g., react, vue3, etc.)
 import type { Meta, StoryObj } from '@storybook/vue3';
-
 import { NesContainer } from './index';
 
 const meta: Meta<typeof NesContainer> = {

@@ -8,3 +8,4 @@ export * from './NesInput';
 export * from './NesTextarea';
 export * from './NesSelect';
 export * from './NesField';
+export * from './NesDialog';

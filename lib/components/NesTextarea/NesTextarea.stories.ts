@@ -9,13 +9,6 @@ export default meta;
 
 type Story = StoryObj<typeof NesTextarea>;
 
-export const Docs: Story = {
-  args: {
-    placeholder: 'Tell us something about you...',
-  },
-  tags: ['!autodocs', '!dev'],
-};
-
 export const Default: Story = {
   args: {
     placeholder: 'Tell us something about you...',

@@ -23,13 +23,6 @@ export default meta;
 
 type Story = StoryObj<typeof NesField>;
 
-export const Docs: Story = {
-  args: {
-    label: 'Your name',
-  },
-  tags: ['!autodocs', '!dev'],
-};
-
 export const Default: Story = {
   args: {
     label: 'Your name',
