@@ -21,7 +21,7 @@ const props = withDefaults(
   }>(),
   {
     size: 'default',
-    pixelated: true,
+    pixelated: false,
     rounded: false,
   },
 );

@@ -13,3 +13,5 @@ export * from './NesList';
 export * from './NesPixelArt';
 export * from './NesBalloon';
 export * from './NesTable';
+export * from './NesNintendo';
+export * from './NesAvatar';

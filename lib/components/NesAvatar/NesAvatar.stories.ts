@@ -46,9 +46,9 @@ export const Rounded: Story = {
   },
 };
 
-export const NotPixelated: Story = {
+export const Pixelated: Story = {
   args: {
     src,
-    pixelated: false,
+    pixelated: true,
   },
 };
