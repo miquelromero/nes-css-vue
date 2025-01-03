@@ -12,7 +12,7 @@ A Vue 3 component library built on top of the [NES.css](https://nostalgic-css.gi
 
 All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xtnljuvvgs.chromatic.com/).
 
-### Completed
+### Ready
 - Container
 - Icon
 - Progress
@@ -22,12 +22,13 @@ All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xt
 - Checkbox
 - Dialog
 - List
-- Pixel-arts
+- Pixel arts
 - Avatar
 - Balloon
 - Table
+- Nintendo characters (Nintendo owns the copyright of these characters. Please comply with the Nintendo guidelines and laws of the applicable jurisdiction.)
 
-### Functional
+### With issues
 - Button
   - Not ready for `a` tags nor router links
 - Radio Group
@@ -35,11 +36,8 @@ All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xt
 - Field
   - Label not pointing to input
 
-### Ongoing
-
 ### Pending
 - Badge
-- Nintendo-characters
 
 ## Installation
 
@@ -88,13 +86,12 @@ Below is an example of how to use a nes-css-vue component alongside nes.css util
 ```vue
 <script setup>
 // Not needed if you have installed the components globally
-import { NesButton } 'nes-css-vue';
+import { NesButton, NesContainer } 'nes-css-vue';
 </script>
 
 <template>
-  <div class="nes-container with-title">
-    <p class="title">NES.css + Vue Example</p>
-
+  <NesContainer title="NES.css + Vue Example">
+  
     <!-- Using nes-css-vue component -->
     <NesButton label="Click Me!" variant="primary" />
 
@@ -106,7 +103,7 @@ import { NesButton } 'nes-css-vue';
 
 ## Future plans
 
-If this works well but the limitations due to the original css code become more annoying, I will consider making this a standalone library that fixes and extends the original features of NES.css.
+If this works well but the limitations due to the original css code become more annoying, I will consider making this a standalone library that fixes and extends the original features of NES.css, as it has been done [here](https://kyr0.github.io/nes-ui-react/) (for React).
 
 ## Documentation
 
