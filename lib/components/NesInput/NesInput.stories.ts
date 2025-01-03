@@ -9,13 +9,6 @@ export default meta;
 
 type Story = StoryObj<typeof NesInput>;
 
-export const Docs: Story = {
-  args: {
-    placeholder: 'John Doe',
-  },
-  tags: ['!autodocs', '!dev'],
-};
-
 export const Default: Story = {
   args: {
     placeholder: 'John Doe',

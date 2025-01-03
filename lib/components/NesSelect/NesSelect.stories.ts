@@ -16,11 +16,6 @@ export default meta;
 
 type Story = StoryObj<typeof NesSelect>;
 
-export const Docs: Story = {
-  args: {},
-  tags: ['!autodocs', '!dev'],
-};
-
 export const Default: Story = {
   args: {
     status: 'default',
