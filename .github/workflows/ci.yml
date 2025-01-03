@@ -7,6 +7,8 @@ on:
 
 jobs:
   lint-and-build:
+    runs-on: ubuntu-latest
+    name: Lint and build
     strategy:
       matrix:
         node-version: [20]
