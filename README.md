@@ -2,6 +2,7 @@
 
 A Vue 3 component library built on top of the [NES.css](https://nostalgic-css.github.io/NES.css) framework.
 
+[![Storybook](https://raw.githubusercontent.com/storybookjs/brand/059f152ecfa4e9895380cb0e4a1f48cf80311a69/badge/badge-storybook.svg)](https://6776ff893997214c9ddaa7fc-xtnljuvvgs.chromatic.com/)
 
 ## What is vue-nes-css?
 
