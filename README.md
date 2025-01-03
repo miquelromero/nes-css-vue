@@ -21,6 +21,7 @@ All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xt
 - Select
 - Checkbox
 - Dialog
+- List
 
 ### Functional
 - Button
@@ -33,7 +34,6 @@ All components are documented in [storybook](https://6776ff893997214c9ddaa7fc-xt
 ### Ongoing
 
 ### Pending
-- List
 - Table
 - Avatar
 - Balloon
