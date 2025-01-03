@@ -12,3 +12,4 @@ export * from './NesDialog';
 export * from './NesList';
 export * from './NesPixelArt';
 export * from './NesBalloon';
+export * from './NesTable';

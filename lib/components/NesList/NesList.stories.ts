@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/vue3';
-import { NesList, NesListItem } from './index';
+import { NesList } from './index';
 
 const meta: Meta<typeof NesList> = {
   component: NesList,
@@ -7,16 +7,15 @@ const meta: Meta<typeof NesList> = {
   render: (args) => ({
     components: {
       NesList,
-      NesListItem,
     },
     setup() {
       return { args };
     },
     template: `
       <NesList v-bind="args">
-        <NesListItem>Item 1</NesListItem>
-        <NesListItem>Item 3</NesListItem>
-        <NesListItem>Item 3</NesListItem>
+        <li>Item 1</li>
+        <li>Item 3</li>
+        <li>Item 3</li>
       </NesList>
     `,
   }),
